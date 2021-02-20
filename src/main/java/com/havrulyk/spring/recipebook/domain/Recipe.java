@@ -4,9 +4,13 @@ import java.util.HashSet;
 import javax.persistence.*;
 import java.util.Set;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 
 @Entity
+@Getter
+@Setter
 @Data
 public class Recipe {
 
